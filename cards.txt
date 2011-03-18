@@ -1,0 +1,1750 @@
+P:Hoax
+
+N:Xelethotiras
+T:0
+M:0:0:0
+
+N:Wogarathoras the Gloomy
+V:5:1
+T:1
+M:0:1:1
+
+N:Athradysas the Seeker
+V:5:0
+T:1
+M:0:2:1
+
+N:Ledinemras the Monk
+V:4:1
+T:1
+M:0:3:0
+
+N:Zedemikras the Brain
+V:4:0
+T:1
+M:0:4:0
+
+N:Ciklarethas the Bitter
+V:3:3
+T:1
+F:RETRIEVE
+M:0:5:1
+
+N:Nirwadas the Traveler
+V:3:2
+T:1
+M:0:6:0
+
+N:Penemikanas the Paranoid
+V:2:3
+T:1
+M:0:7:0
+
+N:Vetraskedas the Sceptic
+V:3:1
+T:1
+M:0:8:0
+
+N:Helkomedes the Rhetorician
+V:1:3
+T:1
+M:0:9:0
+
+N:Redamikanas the Cartographer
+V:2:2
+T:1
+S:If you retreat, I attract one additional dragon.
+E:2:1:0:YOU_RETREAT | ADDITIONAL:1
+M:0:10:2
+
+N:Bethenitana the Storyteller
+V:2:2
+T:1
+S:If I retreat, you may not attract dragons.
+E:2:4:0:I_RETREAT | EXACTLY:0
+M:0:11:2
+
+N:Demegodas the Odd
+V:2:2
+T:1
+S:The values of my support cards double.
+E:1:6:0:INCREASE | ALL_SUPPORT | FIRE_VAL | EARTH_VAL | BY_FACTOR:2
+M:0:12:1
+
+N:Thirkomedas the Serene
+V:2:2
+T:1
+S:You may not play leadership/booster/support cards.
+E:3:0:0:YOU_MAY_NOT | SUPPORT | BOOSTER | LEADERSHIP:0
+M:0:13:2
+
+N:Genathones the Blind
+V:2:2
+T:1
+S:On my turn, I may play one additional support card.
+E:3:0:0:I_MAY_PLAY | ADDITIONAL | SUPPORT:1
+M:0:14:1
+
+N:Sarogakanas the Ancient
+V:1:1
+T:1
+S:Now I may draw two cards from your hand and discard them.
+E:4:0:1:OPTIONAL | DISCARD | YOUR_HAND:2
+M:0:17:1
+
+N:Inscrutable Armor
+V:0:0
+T:2
+F:SHIELD_FIRE
+M:0:18:1
+
+N:Battling Boomerang
+V:2:2
+T:2
+F:RETRIEVE
+M:0:19:2
+
+N:Tome of Wisdom
+V:3:3
+T:4
+M:0:20:3
+
+N:Trebuchet of Fear
+V:2:1
+T:4
+M:0:21:1
+
+N:Ballista of Confusion
+V:1:2
+T:4
+M:0:22:1
+
+N:Homing Missiles
+V:1:2
+T:4
+F:RETRIEVE
+M:0:24:2
+
+N:Duplicator of Strength
+T:4
+S:The Earth value of one of my character cards doubles.
+E:1:6:0:INCREASE | ONE_CHAR | EARTH_VAL | BY_FACTOR:2
+M:0:25:4
+
+N:Brain Drain
+T:4
+S:On your turn, you may not play more than one card.
+E:3:0:0:YOU_MAY_NOT | MORE_THAN:1
+M:0:26:4
+
+N:Muster Reinforcements
+T:8
+S:Now I may draw five cards.
+E:4:0:1:OPTIONAL | DRAW:5
+M:0:27:4
+
+N:Enthrall Opposition
+T:8
+S:On this turn, your special power texts are ignored.  (This card has no effect if opposed by Tittertweet or Laughing Gas.)
+E:1:2:0:IGNORE | ALL_CARDS | SPECIAL:0
+M:0:28:1
+
+N:Trigger Brainstorm
+T:8
+S:On this turn, I may play any number of support cards.
+E:3:0:0:I_MAY_PLAY | SUPPORT:99
+M:0:29:1
+
+N:Hank Highflyer Hawk
+V:0:0
+T:1
+S:Your character cards are ignored, except Flit character cards.
+E:1:3:0:IGNORE | ALL_CHAR | FIRE_VAL | EARTH_VAL | SPECIAL | ICONS_ALL | EXCEPT_FLIT:0
+M:3:12:3
+
+N:Var-dis-Nar
+V:4:4
+T:1
+F:SHIELD_FIRE | SHIELD_EARTH | STOP
+S:I may only play this card if I am attacked by at least 7 total power.  The contested element of the fight changes between Fire and Earth.
+E:5:0:1:PLAY_ONLY_IF | EITHER_POWER | ELEMENT_SWAP:7
+M:9:105:0
+
+N:Potion of Prodigious Passion
+T:2
+S:The values of one of my character cards increase to 5.
+E:1:5:0:INCREASE | ONE_CHAR | FIRE_VAL | EARTH_VAL | TO_VALUE:5
+M:6:26:2
+
+N:Catusan
+V:1:5
+T:1
+M:5:5:1
+
+
+P:Vulca
+
+N:Inferno
+T:0
+M:1:0:0
+
+N:Flamebreath the Dazzling
+V:7:0
+T:1
+M:1:1:3
+
+N:Scorch the Inflammable
+V:6:0
+T:1
+M:1:3:2
+
+N:Lavar the Powerful
+V:5:4
+T:1
+M:1:4:2
+
+N:Volca
+V:5:1
+T:1
+M:1:5:1
+
+N:Blaze
+V:4:3
+T:1
+M:1:6:1
+
+N:Furnace
+V:3:4
+T:1
+M:1:7:1
+
+N:Spark
+V:4:2
+T:1
+M:1:8:0
+
+N:Ignite
+V:2:4
+T:1
+M:1:9:0
+
+N:Sear
+V:4:1
+T:1
+M:1:10:0
+
+N:Torch
+V:1:4
+T:1
+M:1:11:0
+
+N:Shimmer
+V:3:2
+T:1
+M:1:12:0
+
+N:Glimmer
+V:2:3
+T:1
+M:1:13:0
+
+N:Cinder
+V:2:2
+T:1
+S:Now I may discard one of your active booster/support cards.
+E:4:0:1:DISCARD | ACTIVE | YOUR_BOOSTER | YOUR_SUPPORT:1
+M:1:14:1
+
+N:Flare
+V:2:2
+T:1
+S:At the end of my turn, I may draw two additional cards.
+#E:4:0:2:OPTIONAL | DRAW:2
+E:4:0:2:DRAW:2
+M:1:15:1
+
+N:Ember
+V:1:1
+T:1
+S:You may not play character cards that do not have special power text.
+E:3:0:0:YOU_MAY_NOT | CHARACTER | NO_SPECIAL:0
+M:1:16:2
+
+N:Fireblast
+V:3:2
+T:2
+M:1:18:1
+
+N:Infernal Armor
+V:0:0
+T:2
+F:SHIELD_EARTH
+M:1:19:1
+
+N:Elemental Enchantment
+T:2
+S:My total power increases to 6.
+E:1:7:0:INCREASE | TOTAL_POWER | TO_VALUE:6
+M:1:20:2
+
+N:Volcanic Gauntlets
+T:2
+S:The Fire value of one of my character cards doubles.
+E:1:6:0:INCREASE | ONE_CHAR | FIRE_VAL | BY_FACTOR:2
+M:1:21:2
+
+N:Lightning Bolts
+V:3:1
+T:4
+M:1:23:2
+
+N:Flickering Fires
+V:1:1
+T:4
+S:You may not play leadership cards.
+E:3:0:0:YOU_MAY_NOT | LEADERSHIP:0
+M:1:24:1
+
+N:Wall of Fire
+T:4
+S:You may not take cards from your draw deck.
+E:3:0:0:YOU_MAY_NOT | DRAW:0
+M:1:26:3
+
+N:Fearsome Spirits
+T:4
+S:If you retreat, I attract one additional dragon.
+E:2:1:0:YOU_RETREAT | ADDITIONAL:1
+M:1:27:3
+
+N:Summon Sorcerer
+T:8
+S:Now I may retrieve one of my active cards into my hand.
+E:4:0:1:RETRIEVE | MY_CHAR | MY_BOOSTER | MY_SUPPORT | ACTIVE:1
+M:1:28:2
+
+N:Charm Holy Dragon
+T:8
+S:Now I may discard cards with at total printed value of at least 8 Fire from my hand to attract one dragon.
+E:6:0:1:DISCARD | FIRE_VALUE:8
+M:1:29:4
+
+N:Cast Cataclysm
+T:8
+S:Now I may discard all of your active support cards.
+E:4:0:1:OPTIONAL | DISCARD | ALL | ACTIVE | YOUR_SUPPORT:99
+M:1:30:2
+
+N:Aaralia-Aqua Secunda
+V:4:4
+T:1
+M:7:4:1
+
+N:Pandemonium
+T:4
+S:You may not play support cards.
+E:3:0:0:YOU_MAY_NOT | SUPPORT:0
+M:4:26:2
+
+N:Heroine of the Great Plains
+V:3:5
+T:1
+F:PAIR
+M:2:6:2
+
+N:Zig-nur-Don
+V:4:0
+T:1
+F:SHIELD_FIRE | SHIELD_EARTH | STOP
+S:I may only play this card if I am attacked by at least 5 Earth.  The contested element of the fight changes to Fire.
+E:5:0:1:PLAY_ONLY_IF | EARTH_POWER | ELEMENT_SWAP:5
+M:9:106:0
+
+
+P:Mimix
+
+N:Blue Radiance
+T:0
+M:2:0:0
+
+N:Virgin of Pure Fire
+V:6:1
+T:1
+F:PAIR
+M:2:3:2
+
+N:Virgin of Pure Earth
+V:1:6
+T:1
+F:PAIR
+M:2:4:2
+
+N:Heroine of the High Flames
+V:5:3
+T:1
+F:PAIR
+M:2:5:2
+
+N:Spirit of the Night
+V:5:2
+T:1
+F:PAIR
+M:2:7:1
+
+N:Spirit of the Light
+V:2:5
+T:1
+F:PAIR
+M:2:8:1
+
+N:Amazon Leaping High
+V:4:4
+T:1
+F:PAIR
+M:2:9:2
+
+N:Amazon Leaping Far
+V:4:4
+T:1
+F:PAIR
+M:2:10:2
+
+N:Dancer of Dawn
+V:4:2
+T:1
+F:PAIR
+M:2:11:1
+
+N:Dancer of Dusk
+V:2:4
+T:1
+F:PAIR
+M:2:12:1
+
+N:Wild Gazelle
+V:3:3
+T:1
+F:PAIR
+M:2:13:0
+
+N:Wild Antelope
+V:3:3
+T:1
+F:PAIR
+M:2:14:0
+
+N:Young Bear
+V:3:2
+T:1
+F:PAIR
+M:2:16:0
+
+N:Young Fox
+V:2:3
+T:1
+F:PAIR
+M:2:17:0
+
+N:Shaman of the Holy Sacrifice
+V:2:2
+T:1
+S:At the end of my turn, I may reveal (up to) three cards from the top of my draw deck, then discard one of them and take the others into my hand.
+#E:4:0:2:OPTIONAL | DRAW | REVEAL | DISCARD_ONE:3
+E:4:0:2:DRAW | REVEAL | DISCARD_ONE:3
+M:2:18:1
+
+N:Shaman of the Deeds to Come
+V:2:2
+T:1
+S:At the end of my turn, I may draw (up to) three additional cards and then shuffle any two cards from my hand into my draw deck.
+#E:4:0:2:OPTIONAL | DRAW | UNDRAW_2:3
+E:4:0:2:DRAW | UNDRAW_2:3
+M:2:19:1
+
+N:Shaman of the Here and Now
+V:2:2
+T:1
+F:STOP
+S:Immediately after my Booster/Support phase, I search through my draw deck and may select one card, reveal it to you, and take it into my hand. Then I reshuffle.
+E:4:0:3:SEARCH | REVEAL:1
+M:2:20:2
+
+N:Shaman of the Afterlife
+V:2:2
+T:1
+F:STOP
+S:Immediately after my Booster/Support phase, I shuffle my discard pile face down and may draw two cards from it into my hand.
+#E:4:0:3:OPTIONAL | DRAW | MY_DISCARD:2
+E:4:0:3:DRAW | MY_DISCARD:2
+M:2:21:3
+
+N:Sun Setting
+V:2:1
+T:1
+F:FREE
+M:2:22:2
+
+N:Moon Rising
+V:1:2
+T:1
+F:FREE
+M:2:23:2
+
+N:Stars Shining
+V:1:1
+T:1
+F:FREE
+M:2:24:1
+
+N:Hail of Arrows
+V:2:1
+T:2
+M:2:25:0
+
+N:Whirling Hatchet
+V:1:2
+T:2
+M:2:26:0
+
+N:Menacing Wardance
+V:2:2
+T:4
+M:2:27:2
+
+N:Hypnotic Rattle
+T:4
+S:You may not play booster cards.
+E:3:0:0:YOU_MAY_NOT | BOOSTER:0
+M:2:28:2
+
+N:Call Spirit of the Battlefield
+T:8
+S:Now I may retrieve any one card from my combat area into my hand.
+E:4:0:1:RETRIEVE | MY_CHAR | MY_BOOSTER:1
+M:2:30:2
+
+N:Call Spirit of the Underworld
+T:8
+S:Now I search through my discard pile and may select one card, reveal it to you, and take it into my hand.
+E:4:0:1:SEARCH | REVEAL | MY_DISCARD:1
+M:2:31:4
+
+N:Pulsating Shockwave
+V:2:1
+T:4
+F:RETRIEVE
+M:0:23:2
+
+N:NoProblem
+V:2:2
+T:1
+F:GANG_NO
+M:4:19:1
+
+N:Neth-sur-Pot
+V:5:5
+T:1
+F:SHIELD_FIRE | SHIELD_EARTH | STOP
+S:I may only play this card if you have at least three active character/booster/support cards.  The contested element of the fight changes between Fire and Earth.
+E:5:0:1:PLAY_ONLY_IF | YOU_ACTIVE | ELEMENT_SWAP:3
+M:9:104:0
+
+N:Cardus Nikkus
+V:2:2
+T:1
+S:Now I may draw one card from your hand and discard it.
+E:4:0:1:OPTIONAL | DISCARD | YOUR_HAND:1
+M:6:13:1
+
+
+P:Flit
+
+N:Falc
+T:0
+M:3:0:0
+
+N:Wing Commander Razorfeather
+T:1
+V:4:4
+F:RETRIEVE
+M:3:1:2
+
+N:Squadron Leader Squeak
+T:1
+V:4:2
+F:RETRIEVE
+M:3:2:1
+
+N:Flight Leader Squawk
+T:1
+V:2:4
+F:RETRIEVE
+M:3:3:1
+
+N:Peckswift
+T:1
+V:3:2
+F:RETRIEVE
+M:3:4:1
+
+N:Steepstoop
+T:1
+V:2:3
+F:RETRIEVE
+M:3:5:0
+
+N:Highchirp
+T:1
+V:2:2
+F:RETRIEVE
+S:If you have more than one active character card, I may now discard one of them.
+E:4:0:1:DISCARD | YOUR_CHAR | ACTIVE | NOT_LAST_CHAR:1
+M:3:6:1
+
+N:Tittertweet
+T:1
+V:2:2
+F:RETRIEVE
+S:Your special power texts are ignored, except on Flit character cards.
+E:1:1:0:IGNORE | ALL_CARDS | SPECIAL | EXCEPT_FLIT:0
+M:3:7:2
+
+N:Flitterflutter
+T:1
+V:2:2
+F:RETRIEVE
+S:Your support cards are ignored.
+E:1:2:0:IGNORE | ALL_SUPPORT | FIRE_VAL | EARTH_VAL | ICONS_ALL | SPECIAL:0
+M:3:8:1
+
+N:Trillilling
+T:1
+V:2:2
+F:RETRIEVE
+S:Your booster cards are ignored.
+E:1:3:0:IGNORE | ALL_BOOSTER | FIRE_VAL | EARTH_VAL | ICONS_ALL | SPECIAL:0
+M:3:9:1
+
+N:Cheepchirrup
+T:1
+V:2:2
+F:RETRIEVE
+S:On your turn, you may not play more than one card into your combat area.
+E:3:0:0:YOU_MAY_NOT | MORE_THAN | COMBAT:1
+M:3:10:1
+
+N:Carl Kamikaze Crow
+T:1
+V:0:0
+S:The values of my booster cards double.
+E:1:6:0:INCREASE | ALL_BOOSTER | FIRE_VAL | EARTH_VAL | BY_FACTOR:2
+M:3:11:1
+
+N:Proud Phoenix Phil
+T:1
+V:0:0
+F:SHIELD_EARTH
+M:3:14:1
+
+N:Launch Burning Earth
+T:2
+V:3:3
+F:PAIR
+M:3:15:2
+
+N:Launch Rain of Fire
+T:2
+V:3:2
+F:PAIR
+M:3:16:2
+
+N:Launch Locust Paratroopers
+T:2
+V:2:3
+F:PAIR
+M:3:17:2
+
+N:Launch Dazzling Flares
+T:2
+V:3:1
+F:PAIR
+M:3:18:2
+
+N:Launch Boiling Oil
+T:2
+V:1:3
+F:PAIR
+M:3:19:2
+
+N:Launch Fire Flash
+T:2
+V:2:1
+F:PAIR
+M:3:22:1
+
+N:Launch Rockdrop
+T:2
+V:1:2
+F:PAIR
+M:3:23:1
+
+N:Launch Flaming Dust
+T:2
+V:2:0
+F:PAIR
+M:3:24:1
+
+N:Launch Slippery Slime
+T:2
+V:0:2
+F:PAIR
+M:3:25:1
+
+N:Launch Itching Bugs
+T:2
+V:1:1
+F:PAIR | RETRIEVE
+M:3:26:1
+
+N:Launch Sloth Gas
+T:2
+F:PAIR
+S:If I retreat, you attract one fewer dragon.
+E:2:2:0:I_RETREAT | FEWER:1
+M:3:27:2
+
+N:Distract Holy Dragon
+T:8
+S:If I retreat now, you attract no more than one dragon.
+E:2:3:0:I_RETREAT | NO_MORE_THAN:1
+M:3:29:1
+
+N:Beguile Holy Dragon
+T:8
+S:Now I may discard three character cards from my hand to attract one dragon.
+E:6:0:1:DISCARD | CHAR:3
+M:3:30:4
+
+N:Commence Mega Launch
+T:8
+S:On this turn, I may play any number of booster cards.
+E:3:0:0:I_MAY_PLAY | BOOSTER:99
+M:3:31:1
+
+N:Earthwater
+T:2
+S:My total power in Earth increases to 7.
+E:1:7:0:INCREASE | TOTAL_EARTH | TO_VALUE:7
+M:7:20:2
+
+N:Fel-nar-Gan
+T:1
+V:0:0
+F:SHIELD_FIRE | SHIELD_EARTH | STOP
+S:I may only play this card if I have no cards in my combat and support areas.  The contested element of the fight changes between Fire and Earth.
+E:5:0:0:PLAY_ONLY_IF | MY_PLAYED | ELEMENT_SWAP:0
+M:9:109:0
+
+N:Bashdin
+T:1
+V:1:2
+S:Now I may force you to discard two cards from your hand.
+E:8:0:1:OPTIONAL | YOU_DISCARD:2
+M:5:15:1
+
+N:Titanic Gauntlets
+T:2
+S:The Earth value of one of my character cards doubles.
+E:1:6:0:INCREASE | ONE_CHAR | EARTH_VAL | BY_FACTOR:2
+M:1:22:2
+
+
+P:Khind
+
+N:PitPan
+T:0
+M:4:0:0
+
+N:CoolCat
+T:1
+V:2:2
+F:GANG_COOL
+S:The odd printed values of your character cards reduce to 0.
+E:1:4:0:IGNORE | ALL_CHAR | ODD_VAL:0
+M:4:1:2
+
+N:CoolCop
+T:1
+V:2:2
+F:GANG_COOL
+S:The even printed values of your character cards reduce to 0.
+E:1:4:0:IGNORE | ALL_CHAR | EVEN_VAL:0
+M:4:2:2
+
+N:CoolKid
+T:1
+V:2:2
+F:GANG_COOL
+S:The odd printed values of your booster/support cards reduce to 0.
+E:1:4:0:IGNORE | ALL_SUPPORT | ALL_BOOSTER | ODD_VAL:0
+M:4:3:2
+
+N:CoolCub
+T:1
+V:2:2
+F:GANG_COOL
+S:The even printed values of your booster/support cards reduce to 0.
+E:1:4:0:IGNORE | ALL_SUPPORT | ALL_BOOSTER | EVEN_VAL:0
+M:4:4:2
+
+N:TopGun
+T:1
+V:2:2
+F:GANG_TOP
+S:At the end of my turn, I may draw one additional card.
+#E:4:0:2:OPTIONAL | DRAW:1
+E:4:0:2:DRAW:1
+M:4:5:1
+
+N:TopDog
+T:1
+V:2:2
+F:GANG_TOP
+S:On my turn, I may discard one of your active cards that has an icon, except your last remaining active character card and PROTECTED cards.
+E:4:0:4:DISCARD | ACTIVE | YOUR_CHAR | YOUR_BOOSTER | YOUR_SUPPORT | NOT_LAST_CHAR | WITH_ICON:1
+M:4:6:1
+
+N:TopNotch
+T:1
+V:2:2
+F:GANG_TOP
+S:On my turn, I may discard one of your active booster/support cards.
+E:4:0:4:DISCARD | ACTIVE | YOUR_BOOSTER | YOUR_SUPPORT:1
+M:4:7:2
+
+N:TopBanana
+T:1
+V:2:2
+F:GANG_TOP
+S:At the end of my turn, I may force you to discard one card from your hand.
+#E:8:0:2:OPTIONAL | YOU_DISCARD:1
+E:8:0:2:YOU_DISCARD:1
+M:4:8:1
+
+N:TopShot
+T:1
+V:2:2
+F:GANG_TOP
+S:At the end of my turn, I may discard the top card from your draw deck.
+#E:4:0:2:OPTIONAL | DISCARD | YOUR_DECK:1
+E:4:0:2:DISCARD | YOUR_DECK:1
+M:4:9:2
+
+N:FunFair
+T:1
+V:3:2
+F:GANG_FUN
+M:4:10:1
+
+N:FunFlop
+T:1
+V:2:3
+F:GANG_FUN
+M:4:11:1
+
+N:FunFlap
+T:1
+V:3:1
+F:GANG_FUN
+M:4:12:1
+
+N:FunFlip
+T:1
+V:1:3
+F:GANG_FUN
+M:4:13:1
+
+N:FunFun
+T:1
+V:0:0
+F:GANG_FUN
+S:The values of my character cards double.
+E:1:6:0:INCREASE | ALL_CHAR | FIRE_VAL | EARTH_VAL | BY_FACTOR:2
+M:4:14:3
+
+N:NoNo
+T:1
+V:3:1
+F:GANG_NO
+M:4:15:1
+
+N:NoStopping
+T:1
+V:1:3
+F:GANG_NO
+M:4:16:1
+
+N:NoStyle
+T:1
+V:3:0
+F:GANG_NO
+M:4:17:1
+
+N:NoBrains
+T:1
+V:0:3
+F:GANG_NO
+M:4:18:1
+
+N:NoClue
+T:1
+V:2:1
+F:GANG_NO
+M:4:20:0
+
+N:NoClass
+T:1
+V:1:2
+F:GANG_NO
+M:4:21:0
+
+N:NoRespect
+T:1
+V:1:1
+F:GANG_NO
+M:4:22:0
+
+N:Gluing Dust
+T:4
+S:On your turn, you may not take more than one card from your draw deck.
+E:3:0:0:YOU_MAY_NOT | DRAW:1
+M:4:25:2
+
+N:Laughing Gas
+T:4
+S:Your special power texts are ignored, except on Flit character cards. (This card has no effect if opposed by Laughing Gas.)
+E:1:2:0:IGNORE | ALL_CARDS | SPECIAL | EXCEPT_FLIT:0
+M:4:27:3
+
+N:Oath of Khindship
+T:4
+S:At the end of my turn, I may draw one additional card.
+#E:4:0:2:OPTIONAL | DRAW:1
+E:4:0:2:DRAW:1
+M:4:28:1
+
+N:Blow Whistle of Friendship
+T:8
+S:Now I search through my draw deck and may select one card, reveal it to you, and take it into my hand.  Then I reshuffle.
+E:4:0:1:SEARCH | REVEAL:1
+M:4:29:4
+
+N:Open Lucky Bag of Life
+T:8
+S:Now I shuffle my discard pile face down and may draw three cards from it into my hand.
+E:4:0:1:OPTIONAL | DRAW | MY_DISCARD:3
+M:4:30:3
+
+N:Drown Resistance
+T:8
+S:Now I may discard all active cards from your combat area, except one active character card and any PROTECTED cards.
+E:4:0:1:OPTIONAL | DISCARD | ALL | ACTIVE | YOUR_CHAR | YOUR_BOOSTER | NOT_LAST_CHAR:99
+M:7:30:2
+
+N:Ketharkopas the Astronomer
+T:1
+V:2:2
+S:If my turn is about to end with me holding fewer than nine cards in my hand, I may draw to nine cards.
+#E:4:0:2:OPTIONAL | DRAW | TO:9
+E:4:0:2:DRAW | TO:9
+M:0:15:2
+
+N:Fearsome Chant
+T:4
+S:If I retreat, you attract one fewer dragon.
+E:2:2:0:I_RETREAT | FEWER:1
+M:2:29:3
+
+N:Den-bal-Ton
+T:1
+V:8:8
+F:SHIELD_FIRE | SHIELD_EARTH | STOP
+S:I may only play this card if you have at least one dragon on your side.  The contested element of the fight changes between Fire and Earth.
+E:5:0:0:PLAY_ONLY_IF | YOU_DRAGONS | ELEMENT_SWAP:1
+M:9:101:0
+
+
+P:Terrah
+
+N:Tecton Earthquaker
+T:0
+M:5:0:0
+
+N:Megalit Mountainshaker
+T:1
+V:0:7
+M:5:1:3
+
+N:Roomban Rockmaster
+T:1
+V:3:6
+M:5:2:2
+
+N:Suranom Stormbringer
+T:1
+V:0:6
+M:5:3:2
+
+N:Gravitos Greatpower
+T:1
+V:4:5
+M:5:4:2
+
+N:Flamitos
+T:1
+V:4:3
+M:5:6:1
+
+N:Terraton
+T:1
+V:3:4
+M:5:7:1
+
+N:Helitos
+T:1
+V:4:1
+M:5:8:0
+
+N:Sonatos
+T:1
+V:4:0
+M:5:9:0
+
+N:Rocara
+T:1
+V:0:4
+M:5:10:0
+
+N:Torana
+T:1
+V:3:3
+M:5:11:0
+
+N:Ferro Fos
+T:1
+V:2:2
+S:You may not play cards that have special power text.
+E:3:0:0:YOU_MAY_NOT | CHARACTER | SUPPORT | BOOSTER | LEADERSHIP | HAVE_SPECIAL:0
+M:5:12:1
+
+N:Kabu Kat
+T:1
+V:2:1
+S:On your turn, you must play a support card, or retreat.
+E:7:0:0:PLAY_SUPPORT | OR_RETREAT:1
+M:5:13:3
+
+N:Baku But
+T:1
+V:1:2
+S:On your turn, you must play a booster card, or retreat.
+E:7:0:0:PLAY_BOOSTER | OR_RETREAT:1
+M:5:14:3
+
+N:Corono Cos
+T:1
+V:1:1
+S:You may not play cards that do not have special power text.
+E:3:0:0:YOU_MAY_NOT | CHARACTER | SUPPORT | BOOSTER | LEADERSHIP | NO_SPECIAL:0
+M:5:16:3
+
+N:Silento Sol
+T:1
+V:0:0
+F:SHIELD_FIRE
+M:5:17:1
+
+N:Earthblast
+T:2
+V:2:3
+M:5:18:1
+
+N:Earthtremor
+T:2
+S:Now I may discard one of your active booster/support cards.
+E:4:0:1:DISCARD | ACTIVE | YOUR_BOOSTER | YOUR_SUPPORT:1
+M:5:19:1
+
+N:Seismic Drill
+T:4
+V:1:3
+M:5:20:2
+
+N:Crashing Thunder Storm
+T:4
+V:1:1
+S:If I have more than one active Storm support card at the beginning of my turn, I immediately attract one dragon (in total).
+E:6:0:0:STORM:1
+M:5:21:2
+
+N:Swirling Snow Storm
+T:4
+V:1:1
+S:If I have more than one active Storm support card at the beginning of my turn, I immediately attract one dragon (in total).
+E:6:0:0:STORM:1
+M:5:22:2
+
+N:Lashing Sand Storm
+T:4
+V:1:1
+S:If I have more than one active Storm support card at the beginning of my turn, I immediately attract one dragon (in total).
+E:6:0:0:STORM:1
+M:5:23:2
+
+N:Cloying Mud
+T:4
+S:You may not play character cards that have a printed value higher than 4.
+E:3:0:0:YOU_MAY_NOT | CHARACTER | WITH_VALUE:4
+M:5:25:1
+
+N:Impenetrable Fog
+T:4
+S:Your icons are ignored, except STOP and PROTECTED.
+E:1:4:0:IGNORE | ALL_CARDS | ICONS_BUT_SP:0
+M:5:26:2
+
+N:Quivering Quicksand
+T:4
+S:If you have four or more cards in your hand, you may not take further cards into your hand.
+E:3:0:0:YOU_MAY_NOT | TAKE:4
+M:5:27:2
+
+N:Provoke Earthquake
+T:8
+S:Now I may discard all cards from your combat area, except active PROTECTED cards.
+E:4:0:1:OPTIONAL | DISCARD | ALL | YOUR_CHAR | YOUR_BOOSTER:99
+M:5:29:4
+
+N:Impress Holy Dragon
+T:8
+S:Now I may discard cards with a total printed value of at least 8 Earth from my hand to attract one dragon.
+E:6:0:1:DISCARD | EARTH_VALUE:8
+M:5:30:4
+
+N:Mad Mike Magpie
+T:1
+V:0:0
+S:Your cards with icons are ignored, except Flit character cards and PROTECTED cards.
+E:1:3:0:IGNORE | ALL_CARDS | WITH_ICONS | FIRE_VAL | EARTH_VAL | SPECIAL | ICONS_ALL | EXCEPT_FLIT:0
+M:3:13:2
+
+N:Ras-mus-Pan
+T:1
+V:0:4
+F:SHIELD_FIRE | SHIELD_EARTH | STOP
+S:I may only play this card if I am attacked by at least 5 Fire.  The contested element of the fight changes to Earth.
+E:5:0:1:PLAY_ONLY_IF | FIRE_POWER | ELEMENT_SWAP:5
+M:9:107:0
+
+N:Caterpillar Eartheroder
+T:2
+F:FREE
+S:By the end of your Booster/Support phase, you must discard cards with a total printed value of at least 3 Earth from your hand, or retreat.
+E:7:0:0:CATERPILLAR | DISCARD_EARTH | OR_RETREAT:3
+M:6:17:2
+
+N:Flash the Incendiary
+T:1
+V:6:3
+M:1:2:2
+
+
+P:Pillar
+
+N:Fucius Con
+T:0
+M:6:0:0
+
+N:Primus Magicus
+T:1
+V:6:2
+M:6:1:2
+
+N:Devius Maximus
+T:1
+V:2:6
+M:6:2:2
+
+N:Colossus Gigantus
+T:1
+V:1:5
+M:6:3:1
+
+N:Bigus Musselus
+T:1
+V:0:5
+M:6:4:1
+
+N:Smartia Pantia
+T:1
+V:4:3
+M:6:5:1
+
+N:Speedius Unnecessarius
+T:1
+V:3:4
+M:6:6:1
+
+N:Lonus Mightius
+T:1
+V:4:2
+M:6:7:0
+
+N:Halitosus Teriblus
+T:1
+V:4:1
+M:6:8:0
+
+N:Bodius Maloderus
+T:1
+V:1:4
+M:6:9:0
+
+N:Introvertus Completus
+T:1
+V:4:0
+M:6:10:0
+
+N:Gulpus Permanentus
+T:1
+V:2:2
+S:On my turn, I may play one additional booster card.
+E:3:0:0:I_MAY_PLAY | ADDITIONAL | BOOSTER:1
+M:6:11:1
+
+N:Gloria Gracia
+T:1
+V:2:2
+S:Now I may retrieve one card (not this card) from my combat area into my hand.
+E:4:0:1:RETRIEVE | MY_CHAR | MY_BOOSTER:1
+M:6:12:1
+
+N:Crysalus Frendus
+T:1
+V:2:1
+S:The effect of one of my Caterpillar booster cards doubles.
+E:1:6:0:INCREASE | ONE_BOOSTER | CATERPILLAR | SPECIAL:0
+M:6:14:1
+
+N:Bottelus Emptius
+T:1
+V:1:2
+S:You may not take further cards into your hand.
+E:3:0:0:YOU_MAY_NOT | TAKE:0
+M:6:15:1
+
+N:Caterpillar Fireeater
+T:2
+F:FREE
+S:By the end of your Booster/Support phase, you must discard cards with a total printed value of at least 3 Fire from your hand, or retreat.
+E:7:0:0:CATERPILLAR | DISCARD_FIRE | OR_RETREAT:3
+M:6:16:2
+
+N:Caterpillar Watertamer
+T:2
+F:FREE
+S:By the end of your Booster/Support phase, you must discard cards with a total printed value of at least 2 Fire and 2 Earth (on different cards) from your hand, or retreat.
+E:7:0:0:CATERPILLAR | DISCARD_BOTH | OR_RETREAT:2
+M:6:18:2
+
+N:Caterpillar Lightseeker
+T:2
+F:FREE
+S:By the end of your Booster/Support phase, you must discard cards with a total printed value of at least 5 Fire or 5 Earth from your hand, or retreat.
+E:7:0:0:CATERPILLAR | DISCARD_EITHER | OR_RETREAT:5
+M:6:19:2
+
+N:Potion of Cosmic Power
+T:2
+S:The values of one of my character cards double.
+E:1:6:0:INCREASE | ONE_CHAR | FIRE_VAL | EARTH_VAL | BY_FACTOR:2
+M:6:21:3
+
+N:Potion of Conjoining
+T:2
+S:The values of one of my character cards increase to the sum of its printed Fire value + its printed Earth value.
+E:1:5:0:INCREASE | ONE_CHAR | FIRE_VAL | EARTH_VAL | TO_SUM:0
+M:6:22:2
+
+N:Potion of Mutation
+T:2
+S:The values of one of my character cards increase to the higher of its printed Fire value or its printed Earth value.
+E:1:5:0:INCREASE | ONE_CHAR | FIRE_VAL | EARTH_VAL | TO_HIGHER:0
+M:6:23:1
+
+N:Potion of Sparkling Fire
+T:2
+S:The Fire value of one of my character cards increases to 6.
+E:1:5:0:INCREASE | ONE_CHAR | FIRE_VAL | TO_VALUE:6
+M:6:24:2
+
+N:Potion of Trembling Earth
+T:2
+S:The Earth value of one of my character cards increases to 6.
+E:1:5:0:INCREASE | ONE_CHAR | EARTH_VAL | TO_VALUE:6
+M:6:25:2
+
+N:Butterfly Scout
+T:2
+S:Now you disclose your hand.
+E:8:0:1:YOU_DISCLOSE:0
+M:6:27:1
+
+N:Giant Butterfly Eveningbreeze
+T:4
+V:2:2
+F:RETRIEVE
+M:6:28:3
+
+N:Giant Butterfly Morningwind
+T:4
+V:2:2
+F:FREE
+M:6:29:3
+
+N:Deploy Butterfly
+T:8
+S:Now you disclose your hand.
+E:8:0:1:YOU_DISCLOSE:0
+M:6:30:2
+
+N:Bounce Back
+T:8
+F:STOP
+S:My active cards attack again.
+E:4:0:1:ATTACK_AGAIN:0
+M:4:31:3
+
+N:Wild Unicorn
+T:1
+V:3:3
+F:SHIELD_FIRE | SHIELD_EARTH | PAIR
+M:2:15:2
+
+N:Pen-dor-Nith
+T:1
+V:6:6
+F:SHIELD_FIRE | SHIELD_EARTH | STOP
+S:I may only play this card if you have a total of at least six cards in your combat and support areas.  The contested element of the fight changes between Fire and Earth.
+E:5:0:0:PLAY_ONLY_IF | YOU_PLAYED | ELEMENT_SWAP:6
+M:9:103:0
+
+N:Heat Haze
+T:4
+S:You may not play character/booster cards that have special power text.
+E:3:0:0:YOU_MAY_NOT | CHARACTER | BOOSTER | HAVE_SPECIAL:0
+M:1:25:2
+
+
+P:Aqua
+
+N:Aqua-Alpha-Alpha
+T:0
+M:7:0:0
+
+N:Eelena-Aqua-Prima-Alpha
+T:1
+V:5:5
+M:7:1:2
+
+N:Giant Octopus
+T:1
+V:5:0
+F:PROTECTED
+M:7:2:1
+
+N:Terrible Kraken
+T:1
+V:0:5
+F:PROTECTED
+M:7:3:1
+
+N:Electric Eel
+T:1
+V:4:0
+F:PROTECTED
+M:7:5:0
+
+N:Briny Behemoth
+T:1
+V:0:4
+F:PROTECTED
+M:7:6:0
+
+N:Uurunia-Aqua-Terz
+T:1
+V:3:3
+M:7:7:0
+
+N:Iisilia-Aqua-Terz
+T:1
+V:3:3
+M:7:8:0
+
+N:Kelp Leech
+T:1
+V:3:0
+F:PROTECTED
+M:7:9:0
+
+N:Colossal Crustacean
+T:1
+V:0:3
+F:PROTECTED
+M:7:10:0
+
+N:Oomola-Aqua-Delta
+T:1
+V:2:2
+S:Now I may discard any number of cards from my hand.
+E:4:0:1:DISCARD | MY_HAND:99
+M:7:11:1
+
+N:Yang
+T:1
+V:2:0
+S:The next character/booster/support card I play on this turn is treated as if it had the FREE icon.
+E:3:0:0:I_MAY_PLAY | AS_FREE:1
+M:7:12:1
+
+N:Yin
+T:1
+V:0:2
+S:The next character/booster/support card I play on this turn is treated as if it had the FREE icon.
+E:3:0:0:I_MAY_PLAY | AS_FREE:1
+M:7:13:1
+
+N:Oosa-Aqua-Epsilon
+T:1
+V:1:1
+S:Now I may place any number of cards from my hand at the bottom of the draw deck.
+E:4:0:1:SHUFFLE | MY_HAND | ON_BOTTOM:99
+M:7:14:1
+
+N:Sudden Waterspout
+T:2
+V:2:0
+F:FREE
+M:7:16:1
+
+N:Instant Undertow
+T:2
+V:0:2
+F:FREE
+M:7:17:1
+
+N:Aquatic Armor
+T:2
+V:0:0
+F:SHIELD_FIRE | SHIELD_EARTH
+M:7:18:2
+
+N:Firewater
+T:2
+S:My total power in Fire increases to 7.
+E:1:7:0:INCREASE | TOTAL_FIRE | TO_VALUE:7
+M:7:19:2
+
+N:Fire Swamp
+T:4
+V:2:0
+F:FREE
+M:7:21:2
+
+N:Perilous Marsh
+T:4
+V:0:2
+F:FREE
+M:7:22:2
+
+N:Ravenous Razorjaw
+T:4
+V:3:0
+F:PROTECTED
+M:7:23:2
+
+N:Swarming Sea Serpents
+T:4
+V:0:3
+F:PROTECTED
+M:7:24:2
+
+N:Torrential Flood
+T:4
+V:1:1
+S:If I have more than one active Flood support card after the end of my turn, then you must immediately retreat.
+E:7:0:2:FLOOD:1
+M:7:25:3
+
+N:Tidal Flood
+T:4
+V:1:1
+S:If I have more than one active Flood support card after the end of my turn, then you must immediately retreat.
+E:7:0:2:FLOOD:1
+M:7:26:3
+
+N:Irresistible Sirens
+T:4
+S:By the end of your Booster/Support phase, you must discard one character card from your hand, or I attract one (additional) dragon - even if you retreat.
+E:7:0:0:DISCARD_CHAR | OR_DRAGON:1
+M:7:28:3
+
+N:Sprinkle Water of Tranquility
+T:8
+S:Now you may not have more than five cards in your hand and you must discard any additional cards.
+E:8:0:1:YOU_DISCARD | TO:5
+M:7:29:1
+
+N:Administer Water of Immortality
+T:8
+S:Now I may shuffle my discard pile into my draw deck.
+E:4:0:1:OPTIONAL | SHUFFLE | MY_DISCARD:0
+M:7:31:4
+
+N:Launch Hail of Doom
+T:2
+V:2:2
+F:PAIR
+M:3:20:1
+
+N:Mekarthas the Shrewd
+T:1
+V:2:2
+S:Your icons are ignored, except STOP.
+E:1:4:0:IGNORE | ALL_CARDS | ICONS_BUT_S:0
+M:0:16:1
+
+N:Sas-van-Son
+T:1
+V:7:7
+F:SHIELD_FIRE | SHIELD_EARTH | STOP
+S:I may only play this card if you have at least two more cards in your hand than I.  The contested element of the fight changes between Fire and Earth.
+E:5:0:0:PLAY_ONLY_IF | YOU_HANDSIZE | ELEMENT_SWAP:2
+M:9:102:0
+
+N:Drowning Rain Storm
+T:4
+V:1:1
+S:If I have more than one active Storm support card at the beginning of my turn, I immediately attract one dragon (in total).
+E:6:0:0:STORM:1
+M:5:24:2
+
+P:Buka
+
+N:Council of Eight
+T:0
+M:8:0:0
+
+N:Commodore Lo Tan
+T:1
+V:5:4
+M:8:1:2
+
+N:Commodore Tai Marn
+T:1
+V:4:5
+M:8:2:2
+
+N:Captain Ariosa Paal
+T:1
+V:4:4
+F:RETRIEVE
+M:8:3:2
+
+N:Captain Su Cha
+T:1
+V:4:3
+F:BLUFF_NONE
+M:8:4:1
+
+N:Sailingmaster Yo Cha
+T:1
+V:3:4
+F:BLUFF_NONE
+M:8:5:1
+
+N:Sailingmaster Boo Marn
+T:1
+V:4:2
+F:BLUFF_NONE
+M:8:6:1
+
+N:Cannoneer Tara Ko
+T:1
+V:2:4
+F:BLUFF_FIRE
+M:8:7:1
+
+N:Cannoneer Qu Cha
+T:1
+V:2:4
+F:BLUFF_EARTH
+M:8:8:1
+
+N:Cannoneer Edilia Paal
+T:1
+V:1:4
+F:BLUFF_FIRE
+M:8:9:1
+
+N:Cannoneer Rilana Paal
+T:1
+V:1:4
+F:BLUFF_EARTH
+M:8:10:1
+
+N:Cannoneer Riba Ko
+T:1
+V:0:4
+F:BLUFF_FIRE
+M:8:11:1
+
+N:Cannoneer Alo Cha
+T:1
+V:0:4
+F:BLUFF_EARTH
+M:8:12:1
+
+N:B.P. Unity
+T:1
+V:3:3
+F:BLUFF_NONE
+S:If you have a total of at least six cards in your combat and support areas, I may play this card as if it had the FREE icon.
+E:5:0:1:PLAY_FREE_IF | YOU_PLAYED:6
+M:8:13:1
+
+N:B.P. Ferocity
+T:1
+V:3:3
+F:BLUFF_NONE
+S:If you have two or more active character cards, I may play this card as if it had the FREE icon.
+E:5:0:1:PLAY_FREE_IF | YOU_CHARACTER:2
+M:8:14:1
+
+N:B.P. Bravery
+T:1
+V:3:3
+F:BLUFF_NONE
+S:If you have two or more active booster cards, I may play this card as if it had the FREE icon.
+E:5:0:1:PLAY_FREE_IF | YOU_BOOSTER:2
+M:8:15:1
+
+N:B.P. Mystery
+T:1
+V:3:3
+F:BLUFF_NONE
+S:If you have two or more active support cards, I may play this card as if it had the FREE icon.
+E:5:0:1:PLAY_FREE_IF | YOU_SUPPORT:2
+M:8:16:1
+
+N:B.P. Loyalty
+T:1
+V:3:3
+F:BLUFF_NONE
+S:If you have two or more active cards with icons, I may play this card as if it had the FREE icon.
+E:5:0:1:PLAY_FREE_IF | YOU_ICONS:2
+M:8:17:1
+
+N:Boatswain Mena Marn
+T:1
+V:2:2
+F:BLUFF_NONE
+S:You may not have more than one active character card at the end of your Character phase.
+E:3:0:0:YOU_MAY_NOT | MORE_THAN | CHARACTER:1
+M:8:18:1
+
+N:Coxswain Mora Marn
+T:1
+V:2:2
+F:BLUFF_NONE
+S:If this card is played from a landed ship, now I may discard all cards from your combat area, except active PROTECTED cards.
+E:4:0:1:OPTIONAL | DISCARD | ALL | YOUR_CHAR | YOUR_BOOSTER | IF_FROM_SHIP:99
+M:8:19:1
+
+N:Quartermaster Kura Ko
+T:1
+V:2:2
+F:BLUFF_NONE
+S:On my turn, I may play any number of support cards.
+E:3:0:0:I_MAY_PLAY | SUPPORT:99
+M:8:20:2
+
+N:Powdermaster Yina Ko
+T:1
+V:2:1
+F:BLUFF_NONE
+S:The values of my active bluff cards increase to 4.
+E:1:5:0:INCREASE | BLUFF | FIRE_VAL | EARTH_VAL | TO_VALUE:4
+M:8:21:1
+
+N:Lookout Dolora Paal
+T:1
+V:1:1
+F:PROTECTED
+S:Now I may discard all of your active booster cards or all of your active support cards.
+E:4:0:1:DISCARD | ACTIVE | YOUR_BOOSTER | YOUR_SUPPORT | EITHER | ALL:99
+M:8:22:2
+
+N:Old Goo Laa's Ghost
+T:1
+V:2:2
+F:SHIELD_FIRE | SHIELD_EARTH | STOP
+S:I may only play this card if I have no cards in my influence area.  The contested element of the fight changes between Fire and Earth.
+E:5:0:1:PLAY_ONLY_IF | MY_INFLUENCE | ELEMENT_SWAP:0
+M:8:23:3
+
+N:Letter of Marque
+T:2
+V:2:2
+F:FREE
+S:You may not call my bluff.
+E:3:0:0:YOU_MAY_NOT | CALL_BLUFF:0
+M:8:24:2
+
+N:Armory
+T:4
+V:1:1
+S:On my turn, I may play one additional support card.
+E:3:0:0:I_MAY_PLAY | ADDITIONAL | SUPPORT:1
+M:8:25:2
+
+N:Duplicator of Fire
+T:4
+S:The Fire value of one of my character cards doubles.
+E:1:6:0:INCREASE | ONE_CHAR | FIRE_VAL | BY_FACTOR:2
+M:8:26:4
+
+N:Entreat Favor
+T:8
+S:Now I search through my draw deck and may select either one influence card and play it, or one character/booster/support card and load it onto one of my ships.  Then I reshuffle.
+E:4:0:1:SEARCH | LOAD:1
+M:8:27:2
+
+N:Sea Falcon
+T:16
+S:On the turn in which I land this ship, I may also play cards from my hand.
+E:3:0:0:I_MAY_PLAY | SHIP_HAND:0
+M:8:28:4
+C:2
+
+N:Sea Devil
+T:16
+S:Now I may load up to three cards from my hand onto this ship.
+E:4:0:1:LOAD:3
+M:8:29:3
+C:3
+
+N:Rising Sun
+T:16
+M:8:30:3
+C:4
